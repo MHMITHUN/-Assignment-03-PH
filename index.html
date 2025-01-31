@@ -38,18 +38,14 @@
   <header class="shadow">
     <div class="navbar bg-base-100 w-11/12 mx-auto">
       <div class="navbar-start">
-        <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <div class="dropdown ">
+          <div tabindex="0" role="button" class="btn btn-ghost hidden">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
               stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </div>
-          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><a>Product</a></li>
-            <li><a>Services</a></li>
-            <li><a>Contact us</a></li>
-          </ul>
+
         </div>
         <a class="btn btn-ghost text-xl">
           <img class="w-20" src="./Assignment_03_Category_0002/c2-assets/logo-header.png" alt="">
@@ -65,15 +61,18 @@
         </ul>
       </div>
       <div class="navbar-end">
+        <div class="hidden md:flex items-center">
+          <a class="btn bg-transparent border-none"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a class="btn bg-transparent border-none px-7"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a class="btn px-10 border-btn">Login</a>
+          <a class="btn px-10 green-btn ml-2 hover:bg-cyan-800">Register</a>
+        </div>
 
-        <a class="btn bg-transparent border-none"><i class="fa-solid fa-magnifying-glass"></i></a>
-
-        <a class="btn bg-transparent border-none px-7"><i class="fa-solid fa-cart-shopping"></i></a>
-
-        <a class="btn px-10 border-btn">Login</a>
-
-        <a class="btn px-10 green-btn ml-2 hover:bg-cyan-800">Register</a>
-
+        <div tabindex="0" role="button" class="btn btn-ghost flex md:hidden ml-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
       </div>
     </div>
   </header>
