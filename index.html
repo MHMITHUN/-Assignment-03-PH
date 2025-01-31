@@ -18,8 +18,16 @@
     .font-sora {
       font-family: 'Sora', sans-serif;
       font-optical-sizing: auto;
-      font-variation-settings: "wght" 400;
     }
+
+    .hero-gradient {
+      background: linear-gradient(180deg, #FFFFFF 0%, #CBC2AD 190%);
+      min-height: 100vh;
+    }
+
+    /* .font-extrabold {
+      font-variation-settings: "wght" 800;
+    } */
 
     .green-btn {
       border-radius: 8px;
@@ -45,7 +53,9 @@
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
           <li><a>Product</a></li>
-          <li><summary>Services</summary></li>
+          <li>
+            <summary>Services</summary>
+          </li>
           <li><a>Contact us</a></li>
         </ul>
       </div>
@@ -58,7 +68,8 @@
         </div>
         <div class="dropdown dropdown-end md:hidden ml-auto">
           <label tabindex="0" class="btn btn-ghost">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </label>
@@ -72,9 +83,49 @@
     </div>
   </header>
   <main>
-    <section>
-     
+    <section class="hero-section">
+      <div class="hero hero-gradient">
+        <div class="hero-content text-center">
+          <div class="max-w-lg">
+            <h1 class="text-4xl font-bold">Freshnes <span class="text-[#179800]">You Can <br>
+                Count</span> On, Prices You'll Love!</h1>
+            <p class="py-6">
+              Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you
+              covered every day!
+            </p>
+            <img src="./Assignment_03_Category_0002/c2-assets/hero-vegetables.png"
+              alt="A Image of Vegetables Hero Section">
+          </div>
+        </div>
+      </div>
     </section>
+
+    <section class="fun-section flex justify-between">
+      <span class="fun1 align-center">
+        <span class="loading loading-infinity loading-xs"></span>
+        <span class="loading loading-infinity loading-sm"></span>
+        <span class="loading loading-infinity loading-md"></span>
+        <span class="loading loading-infinity loading-lg"></span>
+      </span>
+      <span class="fun2 ">
+        <span class="loading loading-dots loading-xs"></span>
+        <span class="loading loading-dots loading-sm"></span>
+        <span class="loading loading-dots loading-md"></span>
+        <span class="loading loading-dots loading-lg"></span>
+        <span class="loading loading-dots loading-xs"></span>
+        <span class="loading loading-dots loading-sm"></span>
+        <span class="loading loading-dots loading-md"></span>
+        <span class="loading loading-dots loading-lg"></span>
+        
+      </span>
+      <span class="fun3">
+        <span class="loading loading-bars loading-xs"></span>
+        <span class="loading loading-bars loading-sm"></span>
+        <span class="loading loading-bars loading-md"></span>
+        <span class="loading loading-bars loading-lg"></span>
+      </span>
+    </section>
+
 
   </main>
   <footer>
